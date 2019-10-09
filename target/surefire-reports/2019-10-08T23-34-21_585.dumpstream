@@ -1,0 +1,4 @@
+# Created at 2019-10-08T23:34:22.288
+Boot Manifest-JAR contains absolute paths in classpath 'E:\GitHub_java framework\RestAPI\SanpEngage\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

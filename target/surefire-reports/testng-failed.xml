@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="uid" value="pedroalmodovar@test.com"/>
+    <parameter name="pid" value="1q2w3e"/>
+    <classes>
+      <class name="com.Test.Testscripts.TestScripts">
+        <methods>
+          <include name="Verify_loginPage" invocation-numbers="0"/>
+          <include name="TearDown"/>
+          <include name="TestInitailizer"/>
+        </methods>
+      </class> <!-- com.Test.Testscripts.TestScripts -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
